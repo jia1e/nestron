@@ -1,0 +1,42 @@
+{
+    "name": "nestron",
+    "version": "0.0.0",
+    "description": "⚡ NestJS + Electron ⚡",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jia1e/nestron.git"
+    },
+    "keywords": [
+        "nestjs",
+        "electron"
+    ],
+    "author": "Jia1e <zhangjialecn@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jia1e/nestron/issues"
+    },
+    "homepage": "https://github.com/jia1e/nestron#readme",
+    "devDependencies": {
+        "@nestjs/common": "^8.0.0",
+        "@nestjs/core": "^8.0.0",
+        "@nestjs/platform-express": "^8.0.0",
+        "electron": "^16.0.5",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.2.0"
+    },
+    "peerDependencies": {
+        "@nestjs/common": "^8.0.0",
+        "@nestjs/core": "^8.0.0",
+        "@nestjs/platform-express": "^8.0.0",
+        "electron": "^16.0.5",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.2.0"
+    }
+}
